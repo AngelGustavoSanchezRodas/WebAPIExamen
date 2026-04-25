@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebAPI.Models;
+using TuNombreDeProyecto.Models;
 
-namespace WebAPI.Data
+namespace WebAPIExamen.Data
 {
     public class AppDbContext : DbContext
     {
@@ -9,6 +9,6 @@ namespace WebAPI.Data
         {
         }
 
-        public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<Paciente> pacientes_13449 { get; set; }
     }
 }
