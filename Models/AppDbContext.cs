@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TuNombreDeProyecto.Models;
+using WebAPIExamen.Models; 
 
 namespace WebAPIExamen.Data
 {

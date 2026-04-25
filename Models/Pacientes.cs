@@ -2,10 +2,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-// SUSTITUYE "TuNombreDeProyecto" por el nombre exacto de la raíz de tu proyecto en la imagen
-namespace TuNombreDeProyecto.Models
+namespace WebAPIExamen.Models
 {
-    [Table("Pacientes")] // Asegura que EF busque la tabla exacta en MySQL
+    [Table("pacientes_13449")] 
     public class Paciente
     {
         [Key]
