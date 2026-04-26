@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 using WebAPIExamen.Data;
 
+// Saludos Inge
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
